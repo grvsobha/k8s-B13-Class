@@ -13,7 +13,7 @@ spec:
   metadata:
     name: mypod
     labels:
-      type: webserve
+      type: webserver
   spec:
     containers:
      - name: myn1
