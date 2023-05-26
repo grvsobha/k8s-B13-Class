@@ -18,10 +18,10 @@ spec:
     name: kubeserve
     labels:
       app: kubeserve
-  spec:
-   containers:
-    - name: app
-      image: leadevops/kubeserve:v1
+   spec:
+    containers:
+     - name: app
+       image: leadevops/kubeserve:v1
 ---
 kind: Service
 apiVersion: v1
