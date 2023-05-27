@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+matadata:
+ name: my-pvc
+spec:
+ StorageClassName: Manual
+ capacity:
+  storage: 1GI
+ accessModes:
+  - ReadWriteOnce
+ hostPath:
+  path: /tmp/data
