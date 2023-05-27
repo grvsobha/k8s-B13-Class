@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+matadata:
+  name: pvc
+spec:
+ StorageClassName: manual
+ accessModes:
+  - ReadWriteOnce
+  resources:
+    request:
+    storage: 1GI
