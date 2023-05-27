@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolume
 matadata:
- name: my-pvc
+ name: my-pv
 spec:
  StorageClassName: Manual
  capacity:
